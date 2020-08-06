@@ -1,0 +1,33 @@
+{
+    "embeds": [
+      {
+        "title": "*alertDetails*",
+        "footer": {
+          "text": "Timestamp: *alertDateTime*"
+        },
+        "thumbnail": {
+          "url": "https://rgnmicon.imfast.io/upRobot/*monitorFriendlyName*.png",
+          "height": 16,
+          "width": 16
+        },
+        "fields": [
+          {
+            "name": "ID",
+            "value": "*monitorID*"
+          },
+          {
+            "name": "Name",
+            "value": "*monitorFriendlyName*"
+          },
+          {
+            "name": "Destination",
+            "value": "*monitorURL*"
+          },
+          {
+            "name": "Type",
+            "value": "*alertTypeFriendlyName*"
+          }
+        ]
+      }
+    ]
+  }
